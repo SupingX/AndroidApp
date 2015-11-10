@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <!--  主页 -->
+    <color name="color_bg_main">#ECE5D5</color>
+    <color name="color_white">#fff</color>
+    <color name="color_black_main">#404040</color>
+    <color name="color_orange_main">#EF7601</color>
+    
+    
+  <color name="trans">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    
+    
+    
+    <!-- dots -->
+    <color name="dot_1">#04D8D9</color>
+    <color name="dot_2">#2FDCB4</color>
+    <color name="dot_3">#6BDD80</color>
+    <color name="dot_4">#A7DD4D</color>
+    <color name="dot_5">#D7DD25</color>
+    <color name="dot_6">#F8CE10</color>
+    <color name="dot_7">#FFAC10</color>
+    <color name="dot_8">#FF8610</color>
+    <color name="dot_9">#FF6110</color>
+    <color name="dot_10">#FF4810</color>
+    <color name="dot_11">#DB2A1C</color>
+</resources>

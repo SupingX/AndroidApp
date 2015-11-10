@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/ll_bea_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_black_main"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        android:weightSum="3" >
+
+        <TextView
+            android:id="@+id/tv_bea_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/ic_tab_beasun"
+            android:gravity="center"
+            android:text="@string/menu_fangsongba"
+            android:textColor="@color/color_white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_bea_device"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/ic_tab_device"
+            android:gravity="center"
+            android:text="@string/menu_device"
+            android:textColor="@color/color_white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_bea_other"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/ic_tab_other"
+            android:gravity="center"
+            android:text="@string/menu_other"
+            android:textColor="@color/color_white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_bea_bottom" >
+
+        <RelativeLayout
+            android:id="@+id/rl_bea_top"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/color_orange_main" >
+			  <TextView
+            android:onClick="true"
+            android:id="@+id/tv_main_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/ic_action_previous_item"
+            android:gravity="center_vertical"
+            android:text="@string/bea_short"
+            android:visibility="gone"
+            android:textColor="@drawable/selector_save"
+            android:textSize="14sp" />
+			  
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tv_bea_top_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:text="@string/bea_long"
+                android:textColor="@color/color_white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        
+             <com.mycj.beasun.view.NoScrollViewPager
+        android:layout_below="@id/rl_bea_top"
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true" >
+	</com.mycj.beasun.view.NoScrollViewPager>
+	
+    </RelativeLayout>
+
+</RelativeLayout>

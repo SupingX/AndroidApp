@@ -1,0 +1,173 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:id="@+id/sc"
+    	        android:background="@color/color_bg_main"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_main_header" />
+         <com.mycj.beasun.view.BeaMainLinearLayout
+             android:id="@+id/bea_main"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        ></com.mycj.beasun.view.BeaMainLinearLayout>
+
+        <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/item_main_padding"
+            android:weightSum="2" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                                  android:background="@drawable/selector_fragment_main_item_bg"
+                        android:focusable="true"
+                    android:id="@+id/img_main_zhineng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/item_main_padding"
+                    android:src="@drawable/ic_beasun_zhineng" />
+
+                <ImageView
+                                  android:background="@drawable/selector_fragment_main_item_bg"
+                    android:id="@+id/img_main_rounie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/item_main_padding"
+                    android:src="@drawable/ic_beasun_rounie" />
+
+                <ImageView
+                                  android:background="@drawable/selector_fragment_main_item_bg"
+                    android:id="@+id/img_main_tuina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/item_main_padding"
+                    android:src="@drawable/ic_beasun_tuina" />
+
+                <ImageView
+                                  android:background="@drawable/selector_fragment_main_item_bg"
+                    android:id="@+id/img_main_guasha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/item_main_padding"
+                    android:src="@drawable/ic_beasun_guasha" />
+
+                <ImageView
+                                  android:background="@drawable/selector_fragment_main_item_bg"
+                    android:id="@+id/img_main_shoushen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/item_main_padding"
+                    android:src="@drawable/ic_beasun_shoushen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/img_main_qinfu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/item_main_padding"
+                    android:background="@drawable/selector_fragment_main_item_bg"
+                    android:src="@drawable/ic_beasun_qinfu" />
+
+                <ImageView
+                    android:id="@+id/img_main_zhenjiu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                             android:focusable="true"
+                    android:clickable="true"
+                                  android:background="@drawable/selector_fragment_main_item_bg"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/item_main_padding"
+                    android:src="@drawable/ic_beasun_zhenjiu" />
+
+                <ImageView
+                                  android:background="@drawable/selector_fragment_main_item_bg"
+                             android:focusable="true"
+                    android:id="@+id/img_main_chuiji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/item_main_padding"
+                    android:src="@drawable/ic_beasun_chuiji" />
+
+                <ImageView
+                                  android:background="@drawable/selector_fragment_main_item_bg"
+                             android:focusable="true"
+                    android:id="@+id/img_main_zhiya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:contentDescription="@string/app_name"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_beasun_zhiya" />
+
+                <ImageView
+                                  android:background="@drawable/selector_fragment_main_item_bg"
+                             android:focusable="true"
+                    android:id="@+id/img_main_jinzhui"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/item_main_padding"
+                    android:src="@drawable/ic_beasun_jinzhui" />
+
+                <ImageView
+                                  android:background="@drawable/selector_fragment_main_item_bg"
+                             android:focusable="true"
+                    android:id="@+id/img_main_huoguan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/item_main_padding"
+                    android:src="@drawable/ic_beasun_huoguan" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout> -->
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="countView">
+        <attr name="text_color" format="color"></attr>
+    </declare-styleable>
+	<!-- 
+	 1.reference:参考指定Theme中资源ID,这个类型意思就是你传的值可以是引用资源  
+     2.string:字符串,如果你想别人既能直接写值也可以用类似"@string/test"引用资源的方式,可以写成format="string|reference"  
+     3.Color：颜色  
+     4.boolean：布尔值  
+     5.dimension：尺寸值  
+     6.float：浮点型  
+     7.integer：整型  
+     8.fraction：百分数  
+     9.enum：枚举 ,如果你提供的属性只能让别人选择,不能随便传入,就可以写成这样 
+      -->
+    
+</resources>

@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="horizontal"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:clickable="true"
+    android:background="@drawable/selector_white_to_grey"
+    tools:context="${relativePackage}.${activityClass}" >
+	   <ImageView
+	       android:scaleType="fitXY"
+	       	        android:id="@+id/img_music"
+            android:layout_gravity="center_vertical"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_acquiesce_img" />
+    <LinearLayout
+        android:paddingLeft="12dp"
+   	 android:paddingRight="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical" >
+		<TextView 
+		    android:id="@+id/tv_music_name"
+		    android:gravity="center_vertical"
+		    android:layout_weight="1"		    android:layout_height="match_parent"
+		    android:layout_width="match_parent"
+		    android:text="夜空中最亮的心"
+		    android:textColor="@color/color_black_main"
+		    android:textSize="16sp"
+		    />
+			<TextView 
+			        android:id="@+id/tv_music_singer"
+			    		    android:gravity="center_vertical"
+			    		    android:layout_weight="1"	
+		    android:layout_height="match_parent"
+		    android:layout_width="match_parent"
+		    android:text="逃跑计划"
+		    android:textColor="@color/actionsheet_gray"
+		    android:textSize="12sp"
+		    />
+     
+    </LinearLayout>
+
+
+</LinearLayout>

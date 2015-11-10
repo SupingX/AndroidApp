@@ -1,0 +1,4 @@
+<resources>
+
+    <dimen name="item_main_padding">4dp</dimen>
+</resources>

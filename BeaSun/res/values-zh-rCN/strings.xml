@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeaSun</string>
+
+    <string-array name="faqs">
+        <item>进入"设备"管理器界面，向左滑动想要关闭的设备栏，点击“关机”即可。</item>
+        <item>通常一对贴片可重复使用50次，如果贴片粘性不够则会导致出现刺痛感，必须更换新的贴片。</item>
+        <item>设备电量低于10%会导致这种情况，需要给设备充电</item>
+        <item>更换设备的粘贴位置，降低强度。如果是贴片粘性不够所致，则应更换新的贴片。</item>
+        <item>最佳：肩部、背部；次佳：臂部，腿部；忌贴：头颈部、胸腹部。</item>
+        <item>儿童、孕妇、心脏病患者。</item>
+    </string-array>
+
+    <string name="faq_faq1">通过手机关闭按摩器</string>
+    <string name="faq_faq2">关于贴片</string>
+    <string name="faq_faq3">运行时感觉不到按摩器震动</string>
+    <string name="faq_faq4">有针刺的感觉</string>
+    <string name="faq_faq5">设备贴在什么位置好</string>
+    <string name="faq_faq6">忌用人群</string>
+    <string name="feedback_title">标题</string>
+    <string name="feedback_content">意见内容</string>
+    <string name="feedback_title_empty">标题为空</string>
+    <string name="feedback_content_empty">内容为空</string>
+    <string name="feedback_send_success">提交成功</string>
+    <string name="feedback_send_fail">提交失败</string>
+    <string name="device_title">查找设备</string>
+    <string name="device_search_start">发现</string>
+    <string name="device_search_end">个设备</string>
+    <string name="device_searching">正在查找设备</string>
+    <string name="device_save_max">最多保存6个设备</string>
+    <string name="intelligent_not_add_more">不能再添加了</string>
+    <string name="intelligent_positive_to_delete">你确定要删除此模式？</string>
+    <string name="intelligent_model_jingdian">经典模式</string>
+    <string name="intelligent_model_xiaoqi">小憩</string>
+    <string name="intelligent_model_zhaiyinxiang">宅印象</string>
+    <string name="intelligent_model_kongshanzhuyu">空山竹语</string>
+    <string name="intelligent_model_bangongshi">办公室</string>
+    <string name="intelligent_model_lvxing">旅行</string>
+    <string name="intelligent_model_tingchao">听潮</string>
+    <string name="intelligent_model_yuefengling">悦风聆</string>
+    <string name="intelligent_model_jingxin">静心</string>
+    <string name="intelligent_model_zailushang">在路上</string>
+    <string name="intelligent_model_jingye">静夜</string>
+    
+    <string name="custom_add_new">添加新的放松馆</string>
+    <string name="custom_hint_name">请输入放松吧名称</string>
+    <string name="custom_model">模式</string>
+    <string name="custom_choose_model">选择模式</string>
+    <string name="custom_music">音乐</string>
+    <string name="custom_choose_music">选择音乐</string>
+    <string name="custom_give_name_for_model">为放松吧取个名字吧</string>
+    <string name="custom_give_name_isexit">名字已经存在</string>
+    <string name="custom_choose_model_min">至少选择一种模式</string>
+    
+    <string name="clip_title">选择图片</string>
+
+	
+
+    <string name="bea_long">贝尔顺智能放松器</string>
+    <string name="bea_short">贝尔顺</string>
+    <string name="exit">退出程序？</string>
+    <string name="positive">确定</string>
+    <string name="canel">取消</string>
+    <string name="send">发送</string>
+    <string name="save">保存</string>
+    <string name="back">返回</string>
+    <string name="connect">连接</string>
+    <string name="connected">已连接一个按摩器</string>
+    <string name="blue_off">蓝牙已关闭</string>
+    <string name="blue_on">蓝牙已关闭</string>
+    
+    <string name="menu_fangsongba">放松吧</string>
+    <string name="menu_device">设备</string>
+    <string name="menu_other">其他</string>
+    <string name="massage_intelligent">智能按摩</string>
+    <string name="massage_kneading">揉捏按摩</string>
+    <string name="massage_manipulation">推拿按摩</string>
+    <string name="massage_scrapping">刮痧按摩</string>
+    <string name="massage_slimming">瘦身按摩</string>
+    <string name="massage_gently">轻抚按摩</string>
+    <string name="massage_acupuncture">针灸按摩</string>
+    <string name="massage_hammer">锤击按摩</string>
+    <string name="massage_acupressure">指压按摩</string>
+    <string name="massage_neck">颈椎按摩</string>
+    <string name="massage_cupping">火罐按摩</string>
+    <string name="fragment_device_max_add_device">最多添加4个设备</string>
+    <string name="item_add_new">添加新设备</string>
+    <string name="item_connect">连接</string>
+    <string name="item_shutdown">关机</string>
+    <string name="item_delete">删除</string>
+    <string name="fragment_other_userinfo">用户信息</string>
+    <string name="fragment_other_faq">常见问题</string>
+    <string name="fragment_other_feedback">意见反馈</string>
+    <string name="userinfo_title">用户信息</string>
+    <string name="userinfo_name">昵  称</string>
+    <string name="userinfo_phone">手  机</string>
+    <string name="userinfo_email">邮  箱</string>
+    <string name="userinfo_call">电  话</string>
+    <string name="userinfo_qq">QQ</string>
+    <string name="userinfo_weixin">微  信</string>
+    <string name="userinfo_adress">地  址</string>
+    <string name="userinfo_logoff">注销登陆</string>
+    
+    <string name="control_power">力度调节</string>
+    <string name="control_qingfu">轻抚</string>
+    <string name="control_rounie">揉捏</string>
+    <string name="control_zhenjiu">针灸</string>
+    <string name="control_tuina">推拿</string>
+    <string name="control_zhiya">指压</string>
+    <string name="control_chuiji">锤击</string>
+    
+    <string name="control_least_one_device">请至少连接一个设备</string>
+    <string name="control_disconnect">未连接按摩器</string>
+    <string name="editname_title">重命名</string>
+    <string name="editname_new">填写新的名称</string>
+
+    
+    <string name="login_name">登陆名</string>
+    <string name="login_password">密码</string>
+    <string name="login_login">登  陆</string>
+    <string name="login_register">注  册</string>
+    <string name="login_hint_name">手机或邮箱</string>
+    <string name="login_hint_password">请输入密码</string>
+    <string name="login_info_name">请输入登录名</string>
+    <string name="login_info_password">请输入密码</string>
+    <string name="login_fail">用户名密码错误</string>
+    <string name="net_is_null">当前没有网络</string>
+    
+    
+      <string name="register_required">必填</string>
+      <string name="register_optional">可选</string>
+      <string name="register_all_ready">用户已被注册</string>
+      <string name="register_fail">注册失败</string>
+      <string name="register_alert_name_is_null">昵称不能为空!</string>
+      <string name="register_alert_phone_is_null">手机不能为空!</string>
+      <string name="register_alert_email_is_null">邮箱不能为空!</string>
+      <string name="register_alert_password_is_null">密码不能为空!</string>
+      <string name="register_alert_email_match_fail">邮箱格式不正确!</string>
+      <string name="register_alert_phone_match_fail">手机格式不正确!</string>
+      <string name="register_alert_name_match_fail">名字最多只支持6个汉字或 12个字母!</string>
+      <string name="register_alert_weixin_match_fail">微信不能超过50个字符!</string>
+      <string name="register_alert_address_match_fail">地址不能超过50个字符!</string>
+      <string name="register_alert_password_match_fail">密码由6~16位字母、数字组成!</string>
+
+</resources>

@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_orange_main"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="${relativePackage}.${activityClass}" >
+	   <TextView 
+	         android:layout_marginTop="120dp"
+	       android:id="@+id/tv_info"
+        android:padding="4dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:textColor="#f00"
+        android:textSize="14sp"
+        />
+    <TextView 
+        android:padding="4dp"
+      
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/login_name"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        />
+    <EditText 
+        android:id="@+id/et_name"
+           android:maxLength="20"
+              android:padding="4dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/login_hint_name"
+        android:textColor="#ffffff"
+        android:textColorHint="#66ffffff"
+        android:singleLine="true"
+        android:textSize="22sp"
+        />
+     <TextView 
+         android:layout_marginTop="20dp"
+              android:padding="4dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/login_password"
+
+        android:textColor="#fff"
+        android:textSize="16sp"
+        />
+    <EditText 
+                android:id="@+id/et_password"
+             android:padding="4dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/login_hint_password"
+        android:inputType="textPassword"
+        android:maxLength="20"
+                android:singleLine="true"
+        android:textColor="#ffffff"
+                android:textColorHint="#66ffffff"
+        android:textSize="22sp"
+        />
+     <TextView 
+         android:layout_marginTop="20dp"
+         android:background="@drawable/selector_login"
+              android:padding="4dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tv_login"
+        android:text="@string/login_login"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@drawable/selector_save"
+        android:textSize="22sp"
+        />
+      <TextView 
+                  android:id="@+id/tv_resigter"
+          android:layout_marginTop="20dp"
+          android:clickable="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/login_register"
+           android:layout_gravity="right"
+        android:textColor="@drawable/selector_save"
+        android:textSize="16sp"
+        />
+    
+    
+    
+
+</LinearLayout>

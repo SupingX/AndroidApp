@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg_main"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/rl_device_top"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/color_orange_main" >
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/ic_action_previous_item"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:text="@string/canel"
+            android:textColor="@drawable/selector_save"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_device_top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="@string/custom_add_new"
+            android:textColor="@color/color_white"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true" >
+
+            <TextView
+                android:id="@+id/tv_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/save"
+                android:textColor="@drawable/selector_save" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:weightSum="3" >
+
+        <ImageView
+            android:id="@+id/img_custom_front"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:src="@drawable/ic_no_image" />
+
+        <EditText
+            android:id="@+id/et_custom_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:background="@null"
+            android:maxLength="12"
+            android:singleLine="true"
+            android:hint="@string/custom_hint_name"
+            android:padding="8dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:text="@string/custom_model"
+        android:textColor="@color/actionsheet_gray" />
+
+    <RelativeLayout
+        android:id="@+id/rl_choose_model"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/selector_white_to_grey"
+        android:clickable="true" >
+
+        <TextView
+                      android:id="@+id/tv_model_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="@string/custom_choose_model"
+            android:singleLine="true"
+            android:textColor="@color/color_black_main"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_more_right_normal" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:text="@string/custom_music"
+        android:textColor="@color/actionsheet_gray" />
+
+    <RelativeLayout
+        android:id="@+id/rl_choose_music"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/selector_white_to_grey"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_music_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="@string/custom_choose_music"
+            android:singleLine="true"
+            android:textColor="@color/color_black_main"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_more_right_normal" />
+    </RelativeLayout>
+
+</LinearLayout>

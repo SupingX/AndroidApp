@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeaSun</string>
+
+    <string-array name="faqs">
+        <item>Into the device management, then swipe to the left and click shutdown.</item>
+        <item>Usually a couple of chip can be repeatedly for 50 times. You need to replace the new chip when have the pricking of skin.</item>
+        <item>Usually device battery is lower than 10% can lead to this situation, you need to recharge device.</item>
+        <item>Change the position of chip until you do not feel tingling any more.</item>
+        <item>Best location : shoulder, back; Second best location : arms and legs; Non-applicable location : head-and-neck and chest.</item>
+        <item>Children, pregnant women and cardiopath.</item>
+    </string-array>
+
+    <string name="faq_faq1">How to close device though App?</string>
+    <string name="faq_faq2">About the chip</string>
+    <string name="faq_faq3">Is not feeling massage movement</string>
+    <string name="faq_faq4">Have a prickly sensation</string>
+    <string name="faq_faq5">Which position for good effect?</string>
+    <string name="faq_faq6">Non-applicable persons</string>
+    
+    <string name="feedback_title">Title</string>
+    <string name="feedback_content">Suggestion content</string>
+    <string name="feedback_title_empty">Title is empty.</string>
+    <string name="feedback_content_empty">Content is empty.</string>
+    <string name="feedback_send_success">Success</string>
+    <string name="feedback_send_fail">Fail</string>
+    <string name="device_title">Find equipment</string>
+    <string name="device_search_start">Found</string>
+    <string name="device_search_end">devices</string>
+    <string name="device_searching">Looking for equipment</string>
+    <string name="device_save_max">Up to 6 devices to save.</string>
+    <string name="intelligent_not_add_more">Could not be added.</string>
+    <string name="intelligent_positive_to_delete">Are you sure you want to delete this pattern?</string>
+    <string name="intelligent_model_jingdian">Classic</string>
+    <string name="intelligent_model_xiaoqi">Rest</string>
+    <string name="intelligent_model_zhaiyinxiang">Home</string>
+    <string name="intelligent_model_kongshanzhuyu">Valley</string>
+    <string name="intelligent_model_bangongshi">Office</string>
+    <string name="intelligent_model_lvxing">Journey</string>
+    <string name="intelligent_model_tingchao">Seaside</string>
+    <string name="intelligent_model_yuefengling">Listen</string>
+    <string name="intelligent_model_jingxin">Zen</string>
+    <string name="intelligent_model_zailushang">On passage</string>
+    <string name="intelligent_model_jingye">Silence</string>
+    
+    <string name="custom_add_new">Add a new relaxation</string>
+    <string name="custom_hint_name">Please enter the name of relaxation</string>
+    <string name="custom_model">Model</string>
+    <string name="custom_choose_model">Select Model</string>
+    <string name="custom_music">Music</string>
+    <string name="custom_choose_music">Select Music</string>
+    <string name="custom_give_name_for_model">Take a name for relaxation.</string>
+    <string name="custom_give_name_isexit">Name already exists</string>
+    <string name="custom_choose_model_min">At least one model</string>
+    
+    <string name="clip_title">Select pictures</string>
+
+	
+
+    <string name="bea_long">Beason Massager</string>
+    <string name="bea_short">Beason</string>
+    <string name="exit">Exit?</string>
+    <string name="positive">Positive</string>
+    <string name="canel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="connect">Connect</string>
+    <string name="connected">Connected device</string>
+    <string name="blue_off">Bluetooth has been shut down</string>
+    <string name="blue_on">Bluetooth has been turned on</string>
+    
+    <string name="menu_fangsongba">Beasun</string>
+    <string name="menu_device">Equipment</string>
+    <string name="menu_other">Other</string>
+    <string name="massage_intelligent">Intelligent Massage</string>
+    <string name="massage_kneading">Kneading Massage</string>
+    <string name="massage_manipulation">Manipulation Massage</string>
+    <string name="massage_scrapping">Scrapping Massage</string>
+    <string name="massage_slimming">Slimming Massage</string>
+    <string name="massage_gently">Gently Massage</string>
+    <string name="massage_acupuncture">Acupuncture Massage</string>
+    <string name="massage_hammer">Hammer Massage</string>
+    <string name="massage_acupressure">Acupressure Massage</string>
+    <string name="massage_neck">Neck Massage</string>
+    <string name="massage_cupping">Cupping Massage</string>
+    <string name="fragment_device_max_add_device">Add up to 4 devices</string>
+    <string name="item_add_new">Add new devices</string>
+    <string name="item_connect">Connect</string>
+    <string name="item_shutdown">ShutDown</string>
+    <string name="item_delete">Delete</string>
+    <string name="fragment_other_userinfo">User Information</string>
+    <string name="fragment_other_faq">FAQ</string>
+    <string name="fragment_other_feedback">Feedback</string>
+    <string name="userinfo_title">User Information</string>
+    <string name="userinfo_name">Name</string>
+    <string name="userinfo_phone">Phone</string>
+    <string name="userinfo_email">Email</string>
+    <string name="userinfo_call">Telephone</string>
+    <string name="userinfo_qq">QQ</string>
+    <string name="userinfo_weixin">WeChat</string>
+    <string name="userinfo_adress">Address</string>
+    <string name="userinfo_logoff">Log Off</string>
+    
+    <string name="control_power">Intensity</string>
+    <string name="control_qingfu">Gently</string>
+    <string name="control_rounie">Kneading</string>
+    <string name="control_zhenjiu">Acupuncture</string>
+    <string name="control_tuina">Manipulation</string>
+    <string name="control_zhiya">Acupressure</string>
+        <string name="control_least_one_device">Please connect at least one device.</string>
+    <string name="control_chuiji">Hammer</string>
+    <string name="control_disconnect">Not connected to the massager.</string>
+
+      <string name="editname_title">Rename</string>
+    <string name="editname_new">Fill in the new name</string>
+    
+    
+     <string name="login_name">Name</string>
+    <string name="login_password">Password</string>
+    <string name="login_login">Login</string>
+    <string name="login_register">Registered</string>
+    <string name="login_hint_name">phone or email</string>
+    <string name="login_hint_password">Please enter a password</string>
+    <string name="login_info_name">Please enter the login name</string>
+    <string name="login_info_password">Please enter the password</string>
+    <string name="login_fail">User name password error</string>
+    <string name="net_is_null">There is no network</string>
+    
+      <string name="register_required">Required</string>
+      <string name="register_optional">Optional</string>
+        <string name="register_all_ready">User has been registered</string>
+              <string name="register_fail">Registration failure</string>
+              
+                 <string name="register_alert_name_is_null">Name can not be empty!</string>
+      <string name="register_alert_phone_is_null">Phone can not be empty!</string>
+      <string name="register_alert_email_is_null">Email can not be empty!</string>
+      <string name="register_alert_password_is_null">Password can not be empty!</string>
+      <string name="register_alert_email_match_fail">Mailbox format is not correct!</string>
+          <string name="register_alert_phone_match_fail">Mobile phone format is not correct</string>
+      <string name="register_alert_password_match_fail">The password is composed of 6~16 bits and digits!</string>
+          <string name="register_alert_name_match_fail">The name of the maximum of only 6 Chinese characters or 12 letters!</string>
+          <string name="register_alert_weixin_match_fail">The wechat cannot exceed 50 characters!</string>
+          <string name="register_alert_address_match_fail">The address cannot exceed 50 characters!</string>
+          
+    <!-- activity -->
+    <string name="title_activity_spanish">SpanishActivity</string>
+    <string name="title_activity_device">DeviceActivity</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="title_activity_music">MusicActivity</string>
+    <string name="title_activity_intlligent_massage">IntlligentMassageActivity</string>
+    <string name="title_activity_intellgent_massage">IntellgentMassageActivity</string>
+    <string name="title_activity_custom_massage_model">CustomMassageModelActivity</string>
+    <string name="title_activity_classic_massage">ClassicMassageActivity</string>
+    <string name="title_activity_massage">MassageActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_edit_name">EditNameActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_regsiter">RegsiterActivity</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="title_activity_faq">FaqActivity</string>
+    <string name="title_activity_feed_back">FeedBackActivity</string>
+
+</resources>

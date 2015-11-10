@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg_main"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/rl_device_top"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/color_orange_main" >
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/ic_action_previous_item"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:text="@string/menu_other"
+            android:textColor="@drawable/selector_save"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="@string/fragment_other_feedback"
+            android:textColor="@color/color_white"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true" >
+
+            <TextView
+                android:id="@+id/tv_send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/send"
+                android:textColor="@drawable/selector_save" />
+        </RelativeLayout> 
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+        
+
+    <EditText 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/et_feed_back_title"
+        android:padding="4dp"
+        android:background="@drawable/bg_feedback_title"
+        android:hint="@string/feedback_title"
+        android:singleLine="true"
+        android:textSize="16sp"
+        />
+        <EditText 
+            android:gravity="top"
+            android:layout_marginTop="12dp"
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:maxHeight="200dp"
+        android:id="@+id/et_feed_back_content"
+           android:padding="4dp"
+        android:background="@drawable/bg_feedback_content"
+        android:hint="@string/feedback_content"
+        android:textSize="16sp"
+        />
+        </LinearLayout>
+
+</LinearLayout>

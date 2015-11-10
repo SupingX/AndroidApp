@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:padding="12dp"
+    android:clickable="true"
+    android:background="@drawable/selector_white_to_grey"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="瘦身按摩"
+        android:textSize="16sp" />
+
+    
+    <TextView
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:id="@+id/tv_choose_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="√"
+        android:textColor="#FFAC10"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:textSize="18sp" />
+
+</RelativeLayout>
